@@ -1,3 +1,3 @@
 # pagina-de-captura
 
-Porjeto de pagina de captura (exemplo)
+Projeto de pagina de captura (exemplo)
