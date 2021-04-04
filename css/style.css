@@ -66,6 +66,9 @@ footer{
     background-color: #202121;
     padding: 40px;
     text-align: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -90,22 +93,23 @@ width: 160px;
     section{
         display: inline-block;
     }
-    .description{
-       
-        color: white;
-        max-width: 40%;
-        margin-left: 20px; 
-        text-align: left;   
-    }
-    .description p, .description h3 {
-        margin-bottom: 20px;
+    
+    .description {
+
+        max-width: none;
+        margin-left: 0;
         
-    }
-    .description h3 {
-        font-size: 20px;
-    }
+    }  
     .picture {
         width: 100px;
-        margin-bottom: 400px;
+        margin-bottom: 40px;
         }
+        .formContainer{
+            max-width: none;
+            
+        }
+        footer{
+          flex-direction: column;
+        }
+
 }
